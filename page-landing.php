@@ -19,7 +19,7 @@ get_header('landing'); ?>
       <div class="landing-container">
         <div class="landing-inner">
           <h1>Patience Is A Virtue</h1>
-          <h2>We're <em>Extremely</em> Virtuous.</h2>
+          <h2>&amp; We're Extremely Virtuous.</h2>
         </div>
       </div>
     </main><!-- #main -->

@@ -29,7 +29,34 @@
 
 .page-template-page-landing {
   .landing-container {
-    margin: 0 auto;
+    font-family: 'Poiret One';
+    max-width: 800px;
+    margin: 100px auto;
     text-align: center;
+    h2 {
+      text-align: left;
+      // &::before {
+      //   content: '&';
+      //   display: block;
+      //   position: absolute;
+      //   bottom: 0;
+      //   left: -1em;
+      //   font-size: 2.5em;
+      //   line-height: 1;
+      //   text-align: left;
+      // }
+    }
+  }
+  .landing-inner {
+    display: inline-block;
+    position: relative;
+  }
+  @media screen and (min-width: 800px) {
+    h1 {
+      font-size: 3em;
+    }
+    h2 {
+      font-size: 2em;
+    }
   }
 }
