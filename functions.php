@@ -116,13 +116,9 @@ add_action( 'widgets_init', '_tcg_widgets_init' );
 function _tcg_scripts() {
 	wp_enqueue_style( '_tcg-style', get_stylesheet_uri() );
 
-	wp_enqueue_style( '_tcg-fonts', 'https://fonts.googleapis.com/css?family=Poiret+One|Playball' );
-
-
+	wp_enqueue_style( '_tcg-fonts', 'https://fonts.googleapis.com/css?family=Poiret+One' );
 
 	wp_enqueue_script( '_tcg-main', get_template_directory_uri() . '/js/main.min.js', array('jquery'), '20151101', true );
-
-
 
 	wp_enqueue_script( '_tcg-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20120206', true );
 
