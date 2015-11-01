@@ -2,7 +2,7 @@ a {
 	color: $color__link;
 
 	&:visited {
-		color: $color__link-visited;
+		color: $color__link;
 	}
 	&:hover,
 	&:focus,
@@ -15,5 +15,12 @@ a {
 	&:hover,
 	&:active {
 		outline: 0;
+	}
+	&:link,
+	&:hover,
+	&:active,
+	&:visited,
+	&:focus {
+		text-decoration: none;
 	}
 }
