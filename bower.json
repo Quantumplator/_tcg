@@ -1,0 +1,21 @@
+{
+  "name": "_tcg",
+  "version": "1.0.0",
+  "homepage": "https://github.com/quantumplator/tcg",
+  "authors": [
+    "Dylan J Harris <dylansbook@gmail.com>"
+  ],
+  "description": "Dont Blame Me I Just Work Here - A custom WP Theme by Dylan J Harris",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "devDependencies": {
+    "font-awesome": "fontawesome#~4.4.0"
+  }
+}
